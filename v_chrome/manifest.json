@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Bilibili Ad Blocker",
+  "version": "1.0",
+  "description": "remove ads cards on bilibili",
+  "content_scripts": [
+    {
+      "matches": ["*://*.bilibili.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": ["*://*.bilibili.com/*"]
+}
