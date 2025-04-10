@@ -10,19 +10,15 @@
 
 ### 安装方法
 
+#### 通过文件安装
+
 1. 下载`v_firefox`文件夹或从发布页面获取 Chrome 版本的`.crx`文件。
 2. 打开 Firefox 并在地址栏中输入`about:debugging`。
 3. 点击`此Firefox`，然后点击`加载临时附加组件`。
 4. 选择`manifest.json`文件。
 
-**注意：** 这是一个 Firefox 的临时扩展。
+#### 通过 Tampermonkey 安装
 
-### 使用方法
+1. 点击[这里](./bilibili-ad-blocker.user.js)安装脚本（或从`bilibili-ad-blocker.user.js`复制并粘贴代码）。
 
-1. 从工具栏点击扩展图标。
-2. 填写 ChatGPT 或 Gemini 的 API 密钥。
-3. 选择 AI 模型。
-4. 选择目标语言。
-5. 通过右键点击选择文本。
-6. 将光标悬停在弹出的图标上。
-7. 翻译结果很快就会显示。
+**注意：** 通过文件安装的方式在 Firefox 中是临时的。
