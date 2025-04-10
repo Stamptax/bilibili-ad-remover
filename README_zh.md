@@ -19,6 +19,6 @@
 
 #### 通过 Tampermonkey 安装
 
-1. 点击[这里](./bilibili-ad-blocker.user.js)安装脚本（或从`bilibili-ad-blocker.user.js`复制并粘贴代码）。
+1. 点击[这里](./bilibili-ad-blocker.user.js)查看脚本。
 
 **注意：** 通过文件安装的方式在 Firefox 中是临时的。
